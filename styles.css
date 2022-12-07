@@ -470,3 +470,15 @@ th {
   background-color: #ff00009a;
   color: white;
 }
+form{
+	margin: 2rem 0rem;
+	line-height: 2rem;
+}
+.result{
+	margin: 2rem 0rem;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	background-color: #ededed;
+	padding: 1rem;
+}
