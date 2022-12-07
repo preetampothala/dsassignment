@@ -221,6 +221,17 @@ figure {
 	top: 0;
 	z-index: -1;
 }
+.flag {
+	align-items: center;
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	width: 100%;
+	justify-content: center;
+	top: 0;
+	z-index: -1;
+}
 .dnt p {
 	margin-top: 1rem;
 	width: 70%;
@@ -228,6 +239,9 @@ figure {
 }
 @media screen and (min-width: 35rem) {
 	.dnt {
+		position: sticky;
+	}
+	.flag {
 		position: sticky;
 	}
 	figure {
