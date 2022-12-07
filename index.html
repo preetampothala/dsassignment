@@ -67,7 +67,8 @@
 			</p>
 
 			<p class="fontCat">
-				State will occasionally state that embassy and consular services are limited and that US personnel may be
+				US Department of State will occasionally state that embassy and consular services in a particular countey are
+				limited and that US personnel may be
 				unable to
 				assist a US traveler in need.
 			</p>
@@ -1512,6 +1513,12 @@
 					<li>Category 7: Under Developed Countries with better FPI and high individual Freedom</li>
 					<li>Category 8: Under Developed Countries with low FPI and low individual Freedom</li>
 				</ul>
+				<br>
+				<p class="advisoryp">
+					The below graph shows the number of travel warnings issued for each category of countries.
+					It can be clearly observed that Category 4, Category 6 and Category 8 have the highest
+					number of travel warnings between 1994-2022.
+				</p>
 				<div class="flourish-embed flourish-scatter" data-src="visualisation/12042407">
 					<script src="https://public.flourish.studio/resources/embed.js"></script>
 				</div>
@@ -1556,28 +1563,114 @@
 				</tbody>
 			</table>
 		</div>
+		<article class="story">
+			<p class="advisoryp">
+				From the table above we can see that Category 4, Category 6 and Category 8
+				have the highest % of travel warnings issued.
+			</p>
+			<p class="advisoryp">
+				This data analysis raises several questions.
+				Is the absence of Travel Warnings simply due to the relative safety of
+				Category 1 (i.e., Advantaged) nations?
+				Are the other Category nations merely more hazardous? This relationship
+				does indeed seem to exist.
+			</p>
+			<h4>The department of state says</h4>
+			<p class="advisoryp">
+				While issuing a travel advisory
+				the analysis is undertaken without regard to political or economic
+				considerations and the intent is never to
+				penalize or hurt a country by imposing a particular level of travel advisory.
+
+			</p>
+			<p class="advisoryp">
+				The United States has no higher priority than the safety and security of U.S. citizens overseas.
+			</p>
+
 	</section>
 
 	<!-- analysing bias -->
 	<section class="container">
 		<article class="story">
 			<h2>
-				Do americans heed the travel warnings?
+				Do americans heed the travel advisories?
 			</h2>
-			<p>
-
+			<p class="advisoryp">
+				An article from NBC News in 2011 says that many Americans ignore the travel advisories
+				issued by the U.S. State Department.
 			</p>
-			<div class="flourish-embed flourish-hierarchy" data-src="visualisation/11551891">
+			<div class="news">
+				<div>
+					<h3 class="advisoryp">Many Americans ignore 'overly cautious' U.S. travel alerts</h3>
+					<p>
+						Many Americans who venture abroad rarely listen to travel alerts issued by the U.S. State Department
+						because, they
+						contend, the advisories are "overly cautious" and too vague to offer practical value.
+					</p>
+				</div>
+
+			</div>
+			<p class="advisoryp">
+				It is challenging to estimate the number of Americans who read travel warnings and alerts, and it is even more
+				challenging to determine whether they follow the State Department's recommendations.
+			</p>
+			<p class="advisoryp">
+				One way to gauge the impact of travel advisories is to look at the number of
+				Americans who travel to a country from the US Department of transport
+				International Departures report (1990-2022).
+			</p>
+			<div class="flourish-embed flourish-table" data-src="visualisation/12089104">
+				<script src="https://public.flourish.studio/resources/embed.js"></script>
+			</div>
+			<p class="advisoryp">
+				The top 20 countries have the highest number (78%) of American International
+				Travelers traveling to them.
+				And out of the top 20 countries, 12 countries are Category 1 countries.
+			</p>
+			<p class="advisoryp">
+				Mexico has 19 travel warnings issued between 1994-2022.
+				But it is the 2nd most visited country by Americans.
+			</p>
+			<div class="flourish-embed flourish-hierarchy" data-src="visualisation/12089311">
 				<script src="https://public.flourish.studio/resources/embed.js"></script>
 			</div>
 		</article>
+		<p class="advisoryp">
+			The chart above also confirms that Category 1 countries have the highest number
+			of Americans traveling to them. The Category 7 and 8 countries have the lowest
+			american travelers.
+		</p>
+		<p class="advisoryp">
+			Eventhough this doesn't provide a conclusive answer to the question, there seems to be
+			some correlation between the number of Americans traveling to a country and the travel advisory.
+		</p>
 
+		<h3 class="advisoryp">Are the US Travel Advisories 'overly cautious'?</h3>
+		<p class="advisoryp">
+			One person certainly thinks so. Watch the video below to know what he has to say.
+		</p>
+		<iframe width="700" height="500" src="https://www.youtube.com/embed/gFpOvgALHh4" title="YouTube video player"
+			frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
 	</section>
 	<!-- country -->
 	<section class="container build">
-		<h2>Build a Country</h2>
+		<h3>Build a Country</h3>
+		<p class="advisoryp">
+			If you feel that the travel advisories are 'overly cautious' and you want to travel to a country
+			despite the travel advisory but by following the advice in the US travel advisories, you can build your next
+			destnation country.
+		</p>
 		<form action="submit">
-			<span>A country with advisory </span><select name="country" id="country">
+			<span>A country I can travel to in </span><select name="country" id="country">
+				<option value="" disabled="" selected="">The world</option>
+				<option value="crime">Europe</option>
+				<option value="terrorism">Africa</option>
+				<option value="detention">South America</option>
+				<option value="detention">Asia</option>
+				<option value="detention">Oceania</option>
+			</select><span> with </span>
+			<select name="country" id="country">
 				<option value="" disabled="" selected="">Travel Advisory Level</option>
 				<option value="l1">Level 1 Exercise Normal Precautions</option>
 				<option value="l2">Level 2 Exercise increased caution</option>
@@ -1589,20 +1682,21 @@
 				<option value="crime">Crime</option>
 				<option value="terrorism">Terrorism</option>
 				<option value="detention">Detention</option>
-			</select><span> with </span>
+			</select><span> by avoiding </span>
 			<select name="country" id="country">
 				<option value="" disabled="" selected="">Avoid</option>
 				<option value="crowds">Crowds</option>
 				<option value="pt">Public Transportation</option>
 				<option value="restaurants">Restaurants</option>
-			</select><span> with </span>
+				<!-- </select><span> and by not</span>
 			<select name="country" id="country">
 				<option value="" disabled="" selected="">Do not</option>
 				<option value="ta">Travel Alone</option>
-				<option value="dw">Display Wealth</option>
+				<option value="dw">Displaying Wealth</option>
 				<option value="tp">Take Photos/Video</option>
-			</select>
+			</select> -->
 		</form>
+		<p>Colombia</p>
 	</section>
 	<!-- Country -->
 
