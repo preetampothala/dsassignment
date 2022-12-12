@@ -165,7 +165,7 @@ option {
 }
 .datatable {
   background-color: white;
-  padding: 1rem 0m;
+  padding: 3rem;
   box-shadow: 0px 0px 7px 2px rgba(70, 63, 63, 0.1);
   border-radius: 0.3rem;
 }
@@ -277,7 +277,9 @@ figure {
   }
   figure {
     position: sticky;
-    transition: opacity 1s ease-in-out;
+  }
+  #schart {
+    position: sticky;
   }
 }
 .story p {
@@ -288,6 +290,7 @@ figure {
   flex-direction: column;
   align-items: center;
 }
+
 .worldscory-text-levelone {
   width: 30%;
   background-color: #003875;
@@ -512,4 +515,33 @@ form {
   text-align: center;
   background-color: #ededed;
   padding: 1rem;
+}
+.chartscory {
+  margin: 5rem 5rem;
+  display: flex;
+  flex-direction: row;
+  /* background-color: #bdbdbd; */
+}
+.ecotra {
+  flex-basis: 50%;
+}
+.chartscorycon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chartp {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 50vh 5rem;
+  /* text-align: center; */
+  box-shadow: 0px 0px 7px 2px rgba(70, 63, 63, 0.1);
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+#schart {
+  top: 12.5vh;
+  z-index: 1;
 }
