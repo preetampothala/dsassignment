@@ -56,7 +56,8 @@ h1 {
 header {
   display: block;
   text-align: center;
-  margin: 2rem;
+  margin-bottom: 4rem;
+  padding-top: 5rem;
 }
 header p {
   margin-top: 1rem;
@@ -587,4 +588,13 @@ nav {
   align-items: center;
   width: 50%;
   list-style: none;
+}
+.coverimg {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/images/cover.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
