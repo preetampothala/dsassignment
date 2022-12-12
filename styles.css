@@ -21,7 +21,7 @@ a {
   font-family: "Jost", sans-serif;
   font-size: 1.2rem;
 }
-strong {
+.reasonhighlight {
   font-weight: bolder;
   color: #ec823c;
 }
@@ -433,6 +433,7 @@ figure {
   border-radius: 0.7rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  text-align: center;
 }
 .news div {
   margin: auto;
